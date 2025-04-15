@@ -9,7 +9,7 @@ const App = () => {
       transition={{ duration: 0.6 }}
     >
       <motion.h1
-        className="w-full max-w-3xl text-xl md:text-2xl font-bold flex flex-col md:flex-row gap-4 items-center justify-center rounded-3xl bg-transparent border border-gray-500 p-4"
+        className="w-full max-w-3xl text-xl md:text-2xl font-bold flex flex-col md:flex-row gap-4 items-center justify-center rounded-3xl bg-transparent border border-gray-500 p-4 text-center"
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.2 }}
